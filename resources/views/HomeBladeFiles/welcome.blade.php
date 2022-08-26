@@ -880,7 +880,7 @@
 
                                    </div>
 
-                                     <div class="card text-white bg-success" >
+                                     <div class="card text-white bg-primary" >
                                         <div class="card-body">
                                            <h4 class="card-title text-white">Warning card title</h4>
                                            <blockquote class="blockquote mb-0">
