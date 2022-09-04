@@ -18,4 +18,12 @@ Route::get('/', [App\Http\Controllers\HomeBladeController::class, 'welcomePage']
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 //**************************end*********************************
 
+//**************************FormOne*********************************
+Route::get('/wakusoma/form-one/subject-list', [App\Http\Controllers\FormOneController::class, 'indexPage']);
+Route::get('/wakusoma/form-one/subject-topics', [App\Http\Controllers\FormOneController::class, 'viewTopicsListPage']);
+Route::get('/wakusoma/form-one/read-notes', [App\Http\Controllers\FormOneController::class, 'readNotesPage']);
+
+//**************************end*********************************
+
+
 Auth::routes();
